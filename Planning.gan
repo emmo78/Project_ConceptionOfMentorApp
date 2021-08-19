@@ -36,20 +36,20 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="1ere Iteration : AnalyseDesBesoins" color="#ccffff" meeting="false" start="2021-08-17" duration="3" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true">
+        <task id="0" name="1ere Iteration : AnalyseDesBesoins" color="#ccffff" meeting="false" start="2021-08-17" duration="4" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true">
             <task id="2" name="CoursDDD" color="#99ffff" meeting="false" start="2021-08-17" duration="2" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
             <task id="4" name="Revision UML" color="#66ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
             <task id="6" name="Reccueil récits utilisateurs" color="#33ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
-            <task id="12" name="Diagram Use Cases" color="#00ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Diagram Use Cases" color="#00ffff" meeting="false" start="2021-08-19" duration="2" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="14" name="2ème itération : DescriptionCasUtilisation" color="#ff99ff" meeting="false" start="2021-08-20" duration="5" complete="0" thirdDate="2021-08-24" thirdDate-constraint="0" expand="true">
-            <task id="16" name="Scenarios Détailles" color="#ff66ff" meeting="false" start="2021-08-20" duration="2" complete="0" thirdDate="2021-08-25" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="2ème itération : DescriptionCasUtilisation" color="#ff99ff" meeting="false" start="2021-08-21" duration="5" complete="0" thirdDate="2021-08-24" thirdDate-constraint="0" expand="true">
+            <task id="16" name="Scenarios Détailles" color="#ff66ff" meeting="false" start="2021-08-21" duration="2" complete="0" thirdDate="2021-08-25" thirdDate-constraint="0" expand="true"/>
             <task id="18" name="Diagrammes de Sequences" color="#ff00ff" meeting="false" start="2021-08-22" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
-            <task id="19" name="Diagramme de Classe" color="#cc00cc" meeting="false" start="2021-08-23" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Diagramme de Classe" color="#cc00cc" meeting="false" start="2021-08-24" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="22" name="3ème Itération : WireFrames" color="#ccffcc" meeting="false" start="2021-08-25" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
-        <task id="24" name="Livraison" color="#ffff00" meeting="false" start="2021-08-28" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
-        <task id="26" name="Soutenance" color="#ffff00" meeting="false" start="2021-08-30" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="3ème Itération : WireFrames" color="#ccffcc" meeting="false" start="2021-08-26" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="Livraison" color="#ffff00" meeting="false" start="2021-08-29" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+        <task id="26" name="Soutenance" color="#ffff00" meeting="false" start="2021-08-31" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
