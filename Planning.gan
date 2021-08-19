@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-08-16" view-index="0" gantt-divider-location="502" resource-divider-location="300" version="3.1.3102" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="266" order="0"/>
+        <field id="tpd4" name="Date de début" width="114" order="1"/>
+        <field id="tpd5" name="Date de fin" width="118" order="2"/>
+        <option id="color.recent">
+            <![CDATA[#00ffff #ffff00 #ccffcc #cc00cc #ff00ff #ff66ff #ff99ff #ffccff #33ffff #66ffff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="1ere Iteration : AnalyseDesBesoins" color="#ccffff" meeting="false" start="2021-08-17" duration="3" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true">
+            <task id="2" name="CoursDDD" color="#99ffff" meeting="false" start="2021-08-17" duration="2" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Revision UML" color="#66ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Reccueil récits utilisateurs" color="#33ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Diagram Use Cases" color="#00ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="14" name="2ème itération : DescriptionCasUtilisation" color="#ff99ff" meeting="false" start="2021-08-20" duration="5" complete="0" thirdDate="2021-08-24" thirdDate-constraint="0" expand="true">
+            <task id="16" name="Scenarios Détailles" color="#ff66ff" meeting="false" start="2021-08-20" duration="2" complete="0" thirdDate="2021-08-25" thirdDate-constraint="0" expand="true"/>
+            <task id="18" name="Diagrammes de Sequences" color="#ff00ff" meeting="false" start="2021-08-22" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
+            <task id="19" name="Diagramme de Classe" color="#cc00cc" meeting="false" start="2021-08-23" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="22" name="3ème Itération : WireFrames" color="#ccffcc" meeting="false" start="2021-08-25" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
+        <task id="24" name="Livraison" color="#ffff00" meeting="false" start="2021-08-28" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+        <task id="26" name="Soutenance" color="#ffff00" meeting="false" start="2021-08-30" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>
