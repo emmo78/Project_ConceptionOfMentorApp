@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-08-16" view-index="0" gantt-divider-location="502" resource-divider-location="300" version="3.1.3102" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2021-08-01" view-index="0" gantt-divider-location="502" resource-divider-location="300" version="3.1.3103" locale="fr_FR">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="266" order="0"/>
-        <field id="tpd4" name="Date de début" width="114" order="1"/>
-        <field id="tpd5" name="Date de fin" width="118" order="2"/>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="263" order="0"/>
+        <field id="tpd4" name="Date de début" width="116" order="1"/>
+        <field id="tpd5" name="Date de fin" width="119" order="2"/>
         <option id="color.recent">
-            <![CDATA[#00ffff #ffff00 #ccffcc #cc00cc #ff00ff #ff66ff #ff99ff #ffccff #33ffff #66ffff]]>
+            <![CDATA[#006666 #009999 #00ffcc #33ffcc #66ffcc #99ff99 #ccffcc #ff0033 #ff66cc #6633ff]]>
         </option>
     </view>
     <view id="resource-table">
@@ -36,20 +36,29 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="1ere Iteration : AnalyseDesBesoins" color="#ccffff" meeting="false" start="2021-08-17" duration="4" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true">
-            <task id="2" name="CoursDDD" color="#99ffff" meeting="false" start="2021-08-17" duration="2" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
-            <task id="4" name="Revision UML" color="#66ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
-            <task id="6" name="Reccueil récits utilisateurs" color="#33ffff" meeting="false" start="2021-08-19" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
-            <task id="12" name="Diagram Use Cases" color="#00ffff" meeting="false" start="2021-08-19" duration="2" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+        <task id="0" name="1ere Iteration : AnalyseDesBesoins" color="#ccffff" meeting="false" start="2021-08-17" duration="7" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true">
+            <task id="2" name="CoursDDD" color="#99ffff" meeting="false" start="2021-08-17" duration="3" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="4" name="Revision UML" color="#66ffff" meeting="false" start="2021-08-20" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="6" name="Reccueil récits utilisateurs" color="#33ffff" meeting="false" start="2021-08-21" duration="1" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
+            <task id="12" name="Diagram Use Cases" color="#00ffff" meeting="false" start="2021-08-22" duration="2" complete="0" thirdDate="2021-08-17" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="14" name="2ème itération : DescriptionCasUtilisation" color="#ff99ff" meeting="false" start="2021-08-21" duration="5" complete="0" thirdDate="2021-08-24" thirdDate-constraint="0" expand="true">
-            <task id="16" name="Scenarios Détailles" color="#ff66ff" meeting="false" start="2021-08-21" duration="2" complete="0" thirdDate="2021-08-25" thirdDate-constraint="0" expand="true"/>
-            <task id="18" name="Diagrammes de Sequences" color="#ff00ff" meeting="false" start="2021-08-22" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
-            <task id="19" name="Diagramme de Classe" color="#cc00cc" meeting="false" start="2021-08-24" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
+        <task id="14" name="2ème itération : Bounded Contexts (Domaines d'activités)" color="#ff99ff" meeting="false" start="2021-08-24" duration="7" complete="0" thirdDate="2021-08-24" thirdDate-constraint="0" expand="true">
+            <task id="16" name="DUC Bounded Contexts" color="#ff66ff" meeting="false" start="2021-08-24" duration="7" complete="0" thirdDate="2021-08-25" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="22" name="3ème Itération : WireFrames" color="#ccffcc" meeting="false" start="2021-08-26" duration="2" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
-        <task id="24" name="Livraison" color="#ffff00" meeting="false" start="2021-08-29" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
-        <task id="26" name="Soutenance" color="#ffff00" meeting="false" start="2021-08-31" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+        <task id="22" name="3ème Itération : Terminer les Use Cases" color="#ccffcc" meeting="false" start="2021-08-31" duration="7" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true"/>
+        <task id="47" name="4ème Itération : Diagrammes de classes" color="#3333ff" meeting="false" start="2021-09-07" duration="14" complete="0" thirdDate="2021-08-27" thirdDate-constraint="0" expand="true">
+            <task id="49" name="Débuter diagramme de classe" color="#3300ff" meeting="false" start="2021-09-07" duration="7" complete="0" thirdDate="2021-08-16" thirdDate-constraint="0" expand="true"/>
+            <task id="56" name="Finalisation diagramme de classe" color="#3300cc" meeting="false" start="2021-09-14" duration="7" complete="0" thirdDate="2021-08-21" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="63" name="5ème Itération : Wireframes, critères d'acceptation, justification techno" color="#ff66cc" meeting="false" start="2021-09-21" duration="14" complete="0" thirdDate="2021-08-21" thirdDate-constraint="0" expand="true"/>
+        <task id="71" name="Arrêt Maladie" color="#ff0033" meeting="false" start="2021-10-05" duration="101" complete="0" thirdDate="2021-09-04" thirdDate-constraint="0" expand="true"/>
+        <task id="72" name="6ème itération : Reprise du projet" color="#ccffcc" meeting="false" start="2022-01-14" duration="45" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true">
+            <task id="74" name="Cours Scrum" color="#99ff99" meeting="false" start="2022-01-14" duration="7" complete="0" thirdDate="2021-12-24" thirdDate-constraint="0" expand="true"/>
+            <task id="26" name="Cours Conception interface" color="#66ffcc" meeting="false" start="2022-01-21" duration="7" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+            <task id="82" name="Cours Delphine Longuet" color="#009999" meeting="false" start="2022-01-28" duration="7" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+            <task id="89" name="Finir le projet" color="#006666" meeting="false" start="2022-02-04" duration="24" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
+        </task>
+        <task id="46" name="Livraison" color="#ffff00" meeting="false" start="2022-02-28" duration="1" complete="0" thirdDate="2021-08-11" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources/>
     <allocations/>
