@@ -1,0 +1,17 @@
+Oumar SOUMARE20:55
+sommes susceptibles d'écrire les critères d'acceptation suivants pour une User Story qui définit la fonctionnalité de connexion pour un utilisateur déconnecté :
+
+En tant qu'utilisateur déconnecté
+Je souhaite pouvoir me connecter au site Web
+Afin que je puisse accéder à mon profil personnel
+Critères d’acceptation sous forme de scenario ( langage Gherkin) :
+
+Scenario : L'utilisateur système se connecte avec des informations d'identification valides
+Étant donné que je suis un utilisateur système dé
+ que je suis un utilisateur système déconnecté et que je suis sur la page de connexion,
+Lorsque je remplis les champs «Nom d'utilisateur» et «Mot de passe» avec mes informations d'authentification et que je clique sur le bouton Connexion, 
+Alors le système me connecte
+
+UML Langage Gherkin
+Java FrameWorkSpring
+ProsGres pour DDB : objet = SQL Non SQL
